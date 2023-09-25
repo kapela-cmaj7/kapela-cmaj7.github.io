@@ -3,6 +3,8 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Jsme mladá studentská kapela složená z party kamarádů, které hudba prostě baví. Repertoár máme od každého žánru trochu, od big beatu, po rock, pop, funk a uslyšíte české i zahraniční hity, které osloví nejširší publikum. 
+Zahrajeme vám rádi při každé příležitosti. Na plese, svatbě, oslavě a jakékoli jiné události.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+A proč si pro Vaši akci vybrat zrovna nás?
+Myslíme si, že dokážeme zajistit kvalitní živou produkci a vneseme do vašeho večera pohodovou taneční atmosféru.
