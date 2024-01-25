@@ -2,14 +2,14 @@
 # Site
 
 title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
+url: "https://www.kapela-cmaj7.cz"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+logo: /siteicon.svg
 description: App marketing template for Jekyll.
 author:
   name:
@@ -23,7 +23,7 @@ social:
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: Europe/Prague
 
 permalink: pretty
 
@@ -106,15 +106,8 @@ defaults:
 
 social_icons:
   - Facebook
-  - Google Plus
   - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
   - Email
-  - RSS
 
 _comments:
   description: Text shown when sharing on social media
