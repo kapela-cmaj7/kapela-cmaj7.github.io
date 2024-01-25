@@ -1,9 +1,9 @@
 left_links:
   - name: Blog
     link: /blog/
-  - name: About
+  - name: O nás
     link: /about/
-  - name: Contact
+  - name: Kontakt
     link: /contact/
 right_links:
   - name:
