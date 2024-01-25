@@ -1,7 +1,7 @@
 ---
 title: Kontakt
 description: Napište nám!
-image: 
+image: /images/contact/top.jpg
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
@@ -9,8 +9,8 @@ image:
 		<div class="hero-text-container">
 			<h1 class="editable">Napište nám!</h1>
 			<p class="subtext editable">
-				<p class="subtext editable">Tel.: 723272773</p>
-				<p class="subtext editable">Tel.: 722290082</p>
+				<p class="subtext editable">Tel.: 723 272 773</p>
+				<p class="subtext editable">Tel.: 722 290 082</p>
 				<p class="subtext editable">Email: kapela.cmaj7@gmail.com</p>
 			</p>
 		</div>
@@ -20,7 +20,7 @@ image:
 <section class="pad">
 	<div class="text-container contact-box">
 		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="support@cloudcannon.com">
+			<input type="hidden" name="_to" value="kapela.cmaj7@gmail.com">
 			<input type="text" name="_gotcha" style="display: none;">
 
 			<label for="name">Name</label>
@@ -36,11 +36,8 @@ image:
 		</form>
 
 		<div class="contact-details">
-			<h3>Address</h3>
-			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
-
 			<h3>Email</h3>
-			<p class="editable"><a href="mailto:support@example.com">support@example.com</a></p>
+			<p class="editable"><a href="mailto:kapela.cmaj7@gmail.com">kapela.cmaj7@gmail.com</a></p>
 		</div>
 	</div>
 </section>
