@@ -1,7 +1,7 @@
 ---
 title: Home
 description: Mladá kapela s hudbou pro každou příležitost!
-image: /images/home/top.jpg
+image: /images/home/top.png
 bottom_image: /images/home/bottom.jpg
 poster_00: /images/home/posters/00.jpg
 poster_01: /images/home/posters/01.jpg
@@ -34,12 +34,13 @@ poster_01: /images/home/posters/01.jpg
 				<p class="editable">09.03.2024    Pyžamák Petříkov</p>
 				<p class="editable">23.03.2024    Obecní ples Olešnice</p>
 			</div>
-			<div class="image">
-				<img class="editable" src="{{ page.poster_00 }}" alt="poster_00" />
-			</div>
-			<div class="image">
-				<img class="editable" src="{{ page.poster_01 }}" alt="poster_01" />
-			</div>
+			{% for file in site.static_files %}
+				{% if file.path contains 'images/home/posters' %}
+					<div class="image">
+						<img class="editable" src="{{ file.path }}" alt="{{ file.basename }}">
+					</div>
+				{% endif %}
+			{% endfor %}
 		</div>
 	</section>
 
