@@ -32,13 +32,15 @@ bottom_image: /images/home/bottom.jpg
 				<p class="editable">09.03.2024    Pyžamák Petříkov</p>
 				<p class="editable">23.03.2024    Obecní ples Olešnice</p>
 			</div>
-			{% for file in site.static_files %}
-				{% if file.path contains 'images/home/posters' %}
-					<div class="image">
-						<img class="editable" src="{{ file.path }}" alt="{{ file.basename }}">
-					</div>
-				{% endif %}
-			{% endfor %}
+			<div class="container">
+				{% for file in site.static_files %}
+					{% if file.path contains 'images/home/posters' %}
+						<div class="image">
+							<img class="editable" src="{{ file.path }}" alt="{{ file.basename }}">
+						</div>
+					{% endif %}
+				{% endfor %}
+			</div>
 		</div>
 	</section>
 
