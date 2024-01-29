@@ -10,11 +10,11 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.svg
-description: App marketing template for Jekyll.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+description: Informace, budouci koncerty a kontakt kapely Cmaj7.
+author: 
+  name: Kapela Cmaj7
+  email: kapela.cmaj7@gmail.com
+  instagram: _cmaj7__
 social:
   name: Frisco Template
   links:
