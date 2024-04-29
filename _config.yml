@@ -31,7 +31,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-archives
 
 exclude:
@@ -45,8 +45,8 @@ collections:
     _hide_content: true
     _icon: account_circle
 
-paginate: 10
-paginate_path: "/blog/:num/"
+# paginate: 10
+# paginate_path: "/blog/:num/"
 
 jekyll-archives:
   enabled: ['categories']
