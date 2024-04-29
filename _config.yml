@@ -41,7 +41,7 @@ exclude:
   - LICENCE
 
 collections:
-  staff_members:
+  band_members:
     _hide_content: true
     _icon: account_circle
 
@@ -55,13 +55,13 @@ defaults:
   -
     scope:
       path: ""
-      type: "staff_members"
+      type: "band_members"
     values:
       _options:
         image_path:
           width: 440
           height: 440
-          uploads_dir: "/images/staff_members"
+          uploads_dir: "/images/band_members"
   -
     scope:
       path: ""

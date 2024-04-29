@@ -5,7 +5,7 @@ description: How do friendships develop?
 categories:
   - friendship
 image: https://source.unsplash.com/collection/375719/2000x1322?a=.png
-author_staff_member: anna
+author_band_member: anna
 ---
 Three significant factors make the formation of a friendship possible:
 
