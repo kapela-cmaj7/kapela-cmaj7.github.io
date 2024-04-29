@@ -56,6 +56,15 @@ bottom_image: /images/home/bottom.jpg
 					</tr>
 				</table>
 			</div>
+			<!-- Check that there is at least one poster -->
+			{% assign image_exists = false %}
+			{% for file in site.static_files %}
+				{% if file.path contains 'images/home/posters' %}
+					{% assign image_exists = true %}
+				{% endif %}
+			{% endfor %}
+
+			{% if image_exists %}
 			<div class="container">
 				{% for file in site.static_files %}
 				{% if file.path contains 'images/home/posters' %}
@@ -65,6 +74,7 @@ bottom_image: /images/home/bottom.jpg
 				{% endif %}
 				{% endfor %}
 			</div>
+			{% endif %}
 		</div>
 	</section>
 
