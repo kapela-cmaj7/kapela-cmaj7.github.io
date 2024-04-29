@@ -1,5 +1,5 @@
 ---
 name: Gabriela Tlapová
-position: Zpěv
+position: Zpěv, Saxofon
 image_path: /images/band_members/gabi.jpg
 ---
