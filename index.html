@@ -6,52 +6,44 @@ bottom_image: /images/home/bottom.jpg
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
-	<div class="inner-hero text-container">
-		<div class="hero-text-container">
-			<h1 class="editable">Kapela Cmaj7</h1>
-			<p class="subtext editable">
-				Mladá kapela s hudbou pro každou příležitost!
-			</p>
-			<div class="cta button alt"><a href="/about/">Zjistit Více</a></div>
-		</div>
-	</div>
-	<div class="learn-more"><a href="#learn-more">Nadcházející akce<span class="arrow">&#x25BC;</span></a></div>
+    <div class="inner-hero text-container">
+        <div class="hero-text-container">
+            <h1 class="editable">Kapela Cmaj7</h1>
+            <p class="subtext editable">
+                Mladá kapela s hudbou pro každou příležitost!
+            </p>
+            <div class="cta button alt"><a href="/about/">Zjistit Více</a></div>
+        </div>
+    </div>
+    <div class="learn-more"><a href="#learn-more">Nadcházející akce<span class="arrow">&#x25BC;</span></a></div>
 </section>
 
 <div class="content">
-	<section class="info" id="learn-more">
-		<div class="container flex">
-			<div class="text">
-				<h2 class="editable">Nadcházející akce:</h2>
-				<p class="editable">13.7.2024 - Letní zábava v Šalmanovicích</p>
-				<p class="editable">26.7.2024 - Koncert na Velkém rybníce v Trhových Svinech</p>
-				<p class="editable">10.8.2024 - Petříkovský triatlon</p>
-				<p class="editable">31.8.2024 - Motorkářský sraz na Velkém rybníce v Trhových Svinech</p>
-				<p class="editable">14.9.2024 - Roudné fest </p>
-			</div>
-			<!-- Check that there is at least one poster -->
-			{% assign image_exists = false %}
-			{% for file in site.static_files %}
-				{% if file.path contains 'images/home/posters' %}
-					{% assign image_exists = true %}
-				{% endif %}
-			{% endfor %}
+    <section class="info" id="learn-more">
+        <div class="container flex">
+            <!-- Check that there is at least one poster -->
+            {% assign image_exists = false %}
+            {% for file in site.static_files %}
+            {% if file.path contains 'images/home/posters' %}
+            {% assign image_exists = true %}
+            {% endif %}
+            {% endfor %}
 
-			{% if image_exists %}
-			<div class="container">
-				{% for file in site.static_files %}
-				{% if file.path contains 'images/home/posters' %}
-				<div class="image">
-					<img class="editable" src="{{ file.path }}" alt="{{ file.basename }}">
-				</div>
-				{% endif %}
-				{% endfor %}
-			</div>
-			{% endif %}
-		</div>
-	</section>
+            {% if image_exists %}
+            <div class="container">
+                {% for file in site.static_files %}
+                {% if file.path contains 'images/home/posters' %}
+                <div class="image">
+                    <img class="editable" src="{{ file.path }}" alt="{{ file.basename }}">
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </section>
 
-	<!-- <section class="info">
+    <!-- <section class="info">
 		<div class="container flex">
 			<div class="text">
 				<h2 class="editable">Maškarní ples Ledenice</h2>
@@ -63,13 +55,13 @@ bottom_image: /images/home/bottom.jpg
 		</div>
 	</section> -->
 
-	<section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
-		<div class="inner-hero text-container">
-			<div class="hero-text-container">
-				<h2 class="editable">Kontaktujte nás!</h2>
-				<p class="subtext editable">Máte zájem o naši produkci?</p>
-				<div class="cta button alt"><a href="/contact/">Klikněte zde!</a></div>
-			</div>
-		</div>
-	</section>
+    <section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
+        <div class="inner-hero text-container">
+            <div class="hero-text-container">
+                <h2 class="editable">Kontaktujte nás!</h2>
+                <p class="subtext editable">Máte zájem o naši produkci?</p>
+                <div class="cta button alt"><a href="/contact/">Klikněte zde!</a></div>
+            </div>
+        </div>
+    </section>
 </div>
