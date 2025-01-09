@@ -11,10 +11,11 @@ disqus_shortname:
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.svg
 description: Informace, budouci koncerty a kontakt kapely Cmaj7.
-author: 
+author:
   name: Kapela Cmaj7
   email: kapela.cmaj7@gmail.com
   instagram: _cmaj7__
+  youtube: "@kapelaCmaj7"
 social:
   name: Frisco Template
   links:
@@ -49,11 +50,10 @@ collections:
 # paginate_path: "/blog/:num/"
 
 jekyll-archives:
-  enabled: ['categories']
+  enabled: ["categories"]
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "band_members"
     values:
@@ -62,13 +62,11 @@ defaults:
           width: 440
           height: 440
           uploads_dir: "/images/band_members"
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       type: "posts"
     values:
       layout: "post"
@@ -82,13 +80,11 @@ defaults:
           width: 1500
           height: 2000
           uploads_dir: "/images/post_uploads"
-  -
-    scope:
+  - scope:
       path: "contact-success.html"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:

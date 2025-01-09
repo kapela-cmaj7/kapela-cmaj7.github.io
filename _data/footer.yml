@@ -15,3 +15,8 @@ right_links:
     social_: Instagram
     social_icon: Instagram
     new_window: true
+  - name:
+    link: https://www.youtube.com/@kapelaCmaj7/
+    social_: Youtube
+    social_icon: Youtube
+    new_window: true
