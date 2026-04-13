@@ -8,8 +8,8 @@ bottom_image: /images/home/bottom.jpg
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
     <div class="inner-hero text-container">
         <div class="hero-text-container">
-            <h1 class="editable">Kapela Cmaj7</h1>
-            <p class="subtext editable">
+            <h1>Kapela Cmaj7</h1>
+            <p class="subtext">
                 Mladá kapela s hudbou pro každou příležitost!
             </p>
             <div class="cta button alt"><a href="/about/">Zjistit Více</a></div>
@@ -34,7 +34,7 @@ bottom_image: /images/home/bottom.jpg
                 {% for file in site.static_files %}
                 {% if file.path contains 'images/home/posters' %}
                 <div class="image">
-                    <img class="editable" src="{{ file.path }}" alt="{{ file.basename }}">
+                    <img src="{{ file.path }}" alt="{{ file.basename }}">
                 </div>
                 {% endif %}
                 {% endfor %}
@@ -43,23 +43,11 @@ bottom_image: /images/home/bottom.jpg
         </div>
     </section>
 
-    <!-- <section class="info">
-		<div class="container flex">
-			<div class="text">
-				<h2 class="editable">Maškarní ples Ledenice</h2>
-				<p class="editable">22.2.2024!</p> 
-			</div>
-			<div class="image">
-				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
-			</div>
-		</div>
-	</section> -->
-
-    <section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
+<section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
         <div class="inner-hero text-container">
             <div class="hero-text-container">
-                <h2 class="editable">Kontaktujte nás!</h2>
-                <p class="subtext editable">Máte zájem o naši produkci?</p>
+                <h2>Kontaktujte nás!</h2>
+                <p class="subtext">Máte zájem o naši produkci?</p>
                 <div class="cta button alt"><a href="/contact/">Klikněte zde!</a></div>
             </div>
         </div>
